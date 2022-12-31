@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testng">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestPack.Verification"/>
+      <class name="TestPack.WikiTest"/>
+      <class name="TestPack.BaseClass"/>
+      <class name="TestPack.ImdbTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- testng -->
